@@ -1,0 +1,230 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <style>
+  @charset "UTF-8";
+.hero {
+  background: url("http://images7.alphacoders.com/330/330811.jpg") no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  overflow: hidden; }
+
+.row {
+  max-width: 1200px; }
+
+.footer {
+  background-color: #292c2f;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem; 
+  top: 50px;}
+  .footer .social a {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 2rem;
+    margin: 0 3px 0 0; }
+  .footer .copywrite {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 1rem 0 1rem 0; }
+  .footer .footer-form textarea, .footer .footer-form input {
+    border-radius: 3px;
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: normal;
+    color: #d1d2d2;
+    padding: 1.3rem; }
+  .footer .footer-form label {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 0 1rem 0;
+    font-weight: bold; }
+  .footer .footer-form .submit {
+    border-radius: 3px;
+    background-color: #33383b;
+    color: #ffffff;
+    border: 0;
+    padding: 1rem 3.5rem;
+    font-weight: bold;
+    float: right;
+    margin: 0 1rem 2rem 0; }
+  .footer .footer-links a {
+    list-style: none;
+    font-weight: normal;
+    color: #fff;
+    padding: 3rem 0 2rem;
+    margin: 0;
+    font-size: 0.875rem; }
+    .footer .footer-links a::after {
+      content: "•";
+      padding: 0 0.2rem 0 0.4rem; }
+    .footer .footer-links a:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem; }
+  @media only screen and (min-width: 40.063em) {
+    .footer {
+      padding: 4rem; }
+      .footer p {
+        text-align: left; }
+      .footer .social {
+        text-align: left;
+        margin: 0; }
+      .footer .footer-form .contact {
+        position: absolute;
+        left: -45%;
+        top: 10%; } }
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem; }
+  .logo i {
+    margin-right: 0.5rem; }
+
+aside {
+  width: 17%;
+  min-width: 150px;
+  max-width: 300px;
+  height: 100%;
+  background-color: $black;
+  position: fixed;
+  top: 50px;
+  float: left;
+  
+  padding: 25px 0 0 0;
+}
+aside a {
+  display: block;
+  line-height: 40px;
+  border-right: 4px solid transparent;
+  cursor: pointer;
+  transition: background-color .3s linear,
+              border-right-color .3s linear,
+              color .3s linear;
+  
+  color: $grey;
+  padding: 0 0 0 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+aside a:hover,
+aside a.current { 
+  background-color: lighten($black, 2%);
+  border-right-color: $gold;
+  
+  color: $white;
+}
+
+  </style>
+  <body>
+    <aside>
+      <a class="current">Home</a>
+      <a href="users">Users</a>
+      <a href="users">Schedule</a>
+      <a href="users">Info</a>
+    </aside>
+<footer class="footer">
+  <div class="row">
+    <div class="small-12 medium-6 medium-push-6 columns">
+      <p class="logo show-for-small-only"><i class="fi-target"></i> FIGHT CLUB</p> 
+      <form class="footer-form">
+        <div class="row">
+          <div class="medium-9 medium-push-3 columns">
+            <label>
+              <label for="email" class="contact">Contact Us</label>
+              <input type="email" id="email" placeholder="Email Address" />
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="medium-9 medium-push-3 columns">
+            <label>
+              <textarea rows="5" id="message" placeholder="Message"></textarea>
+            </label>
+          </div>
+          <div class="row">
+            <div class="medium-9 medium-push-3 columns">
+              <button class="submit" type="submit" value="Submit">Send</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="small-12 medium-6 medium-pull-6 columns">
+      <p class="logo hide-for-small-only"><i class="fi-target"></i> FIGHT CLUB</p> 
+      <p class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">Pricing</a>
+        <a href="#">About</a>
+        <a href="#">Faq</a>
+        <a href="#">Contact</a>
+      </p>
+      <ul class="inline-list social">
+        <a href="#"><i class="fi-social-facebook"></i></a>
+        <a href="#"><i class="fi-social-twitter"></i></a>
+        <a href="#"><i class="fi-social-linkedin"></i></a>
+        <a href="#"><i class="fi-social-github"></i></a>
+      </ul>
+      <p class="copywrite">Copywrite not copywrite © 2015</p>
+    </div>
+  </div>
+</footer>
+  <script src="js/vendor/jquery.min.js"></script>
+  <script src="js/vendor/what-input.min.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script src="js/app.js"></script>
+  <script type="text/javascript">
+      $(document).foundation();
+      $(document).ready( function() {
+      $('.sub > a').click( function() {
+        $('.sub').find('.current').removeClass('current');
+        $(this).addClass('current');    
+      });
+      $('aside > a').click( function() {
+        $('aside').find('.current').removeClass('current');
+        $(this).addClass('current');    
+      });
+      $('.ntfy i').click( function() {
+        $(this).parent().toggleClass('gt').toggleClass('active');
+      });
+      
+      var x = $('aside').width();
+      var margin = '50px 0 0 '+ x +'px';
+      var width = $(window).width() - x;
+      $('#main').css({
+        margin: margin,
+        width: width
+      });
+      
+      $(window).resize(function() {
+        var x = $('aside').width();
+        var margin = '50px 0 0 '+ x +'px';
+        var width = $(window).width() - x;
+        $('#main').css({
+          margin: margin,
+          width: width
+        });
+      });  
+  });
+    </script>
+  </body>
+</html>
