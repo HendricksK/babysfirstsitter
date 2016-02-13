@@ -15,6 +15,7 @@ body{
   text-align: center;
   font-size: 1.2rem;
   padding: 1rem; 
+  margin-top: 5%; 
   }
   .footer .social a {
     display: inline-block;
@@ -273,3 +274,4 @@ body{
       
       /* Large only */
       @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
